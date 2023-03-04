@@ -8,7 +8,8 @@ const checkValue = (data) => {
   return true;
 };
   
-    function CalcDes(a,b,c){
+    function CalcDes(a,b,c) {
+    console.log(`The equation is: (${a})x^2 + (${b})x + (${c}) = 0`);
     const discriminant = Math.pow(b, 2) - 4 * a * c;
     if (discriminant < 0) {
       console.log("There are 0 roots");
@@ -22,11 +23,5 @@ const checkValue = (data) => {
     }
   }
 
-  function solveQuadraticEquation(a,b,c){
-    CheckingValues(a,b,c);
-    if (flag === false){
-      return;
-    } else CalcDes(a,b,c); 
-    
-  }
+  export { CalcDes, checkValue };
 

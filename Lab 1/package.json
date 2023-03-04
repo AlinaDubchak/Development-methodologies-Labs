@@ -1,0 +1,21 @@
+{
+  "name": "lab-1",
+  "version": "1.0.0",
+  "description": "methodology lab 1",
+  "main": "mainFile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaDubchak/Development-methodologies-Labs.git"
+  },
+  "author": "AlinaDubchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlinaDubchak/Development-methodologies-Labs/issues"
+  },
+  "homepage": "https://github.com/AlinaDubchak/Development-methodologies-Labs#readme"
+}
+
