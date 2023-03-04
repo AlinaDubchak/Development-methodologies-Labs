@@ -7,7 +7,7 @@ const checkValue = (data) => {
   }
   return true;
 };
-  
+
     function CalcDes(a,b,c) {
     console.log(`The equation is: (${a})x^2 + (${b})x + (${c}) = 0`);
     const discriminant = Math.pow(b, 2) - 4 * a * c;

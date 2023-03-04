@@ -1,3 +1,5 @@
+'use strict'
+
 import { CalcDes, checkValue } from "./solver.js";
 
 const interactiveMode = () => {
