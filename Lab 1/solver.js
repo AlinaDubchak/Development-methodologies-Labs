@@ -1,19 +1,12 @@
 'use strict'
 
-let flag = true;
-
-function CheckingValues(a, b, c) {
-    if (isNaN(a) || isNaN(b) || isNaN(c)) {
-      console.log("Error: epected a valid real number, got invalid instead.");
-      flag = false;
-      return flag
-    }
-    if (a === 0) {
-      console.log("Error: parameter 'a' must be different from 0");
-      flag=false;
-      return flag;
-    }
+const checkValue = (data) => {
+  const num = parseFloat(data.toString());
+  if (isNaN(num) || data.toString().trim().length !== num.toString().length) {
+    return false;
   }
+  return true;
+};
   
     function CalcDes(a,b,c){
     const discriminant = Math.pow(b, 2) - 4 * a * c;
@@ -37,4 +30,3 @@ function CheckingValues(a, b, c) {
     
   }
 
-  solveQuadraticEquation(0,0,9);
