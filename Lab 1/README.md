@@ -3,5 +3,5 @@
 ## Topic 
 Git Basics
 
-## Еhe purpose
+## The purpose
 Demonstrate basic Git version control skills
