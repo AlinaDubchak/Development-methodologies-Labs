@@ -1,6 +1,4 @@
-import { interactiveMode } from "./interactiveMod.js";
-
-"use strict"
+'use strict'
 
 let flag = true;
 
@@ -39,3 +37,4 @@ function CheckingValues(a, b, c) {
     
   }
 
+  solveQuadraticEquation(0,0,9);
