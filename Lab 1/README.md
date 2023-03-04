@@ -90,5 +90,5 @@ Error: file dkfd.txt does not exist
 ```
 ## Link on revert commit
 
-- [Revert readme changing](https://github.com/AlinaDubchak/Development-methodologies-Labs/commit/a5e2d679e38f142e46faf14fa2f7bd3bfe6dc9b0)
-- [Revert readme changing](https://github.com/AlinaDubchak/Development-methodologies-Labs/commit/24982dad3c8c6ece450826cdfa6a3f75173cfe37)
+- [Revert commit #1](https://github.com/AlinaDubchak/Development-methodologies-Labs/commit/a5e2d679e38f142e46faf14fa2f7bd3bfe6dc9b0)
+- [Revert commit #2](https://github.com/AlinaDubchak/Development-methodologies-Labs/commit/24982dad3c8c6ece450826cdfa6a3f75173cfe37)
