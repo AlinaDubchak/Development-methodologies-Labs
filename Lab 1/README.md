@@ -66,6 +66,7 @@ The equation is: (1)x^2 + (2.34)x + (-0.5) = 0
 There are 2 roots: x1 = 0.19707717412002745, x2 = -2.5370771741200273
 ```
 ### Non - interactive mod
+In my case I'll use file.txt  
 
 > To start non - interactive mod run:
 ```
