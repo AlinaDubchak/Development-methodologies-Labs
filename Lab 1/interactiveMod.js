@@ -8,16 +8,18 @@ const interactiveMode = () => {
     const input = process.stdin;
     const output = process.stdout;
 
-input.on("data", (data) => {
+    input.on("data", (data) => {
       const num = parseFloat(data.toString());
+      params[params.length] = num;
       if (!checkValue(data)) {
         console.log(`Error. Expected a valid real number, got ${data} instead`);
+        params.pop();
         output.write(questions[params.length]);
-      } else if (num === 0) {
+      } else if (params[0] === 0) {
         console.log(`Error. Cannot be 0`);
+        params.pop();
         output.write(questions[params.length]);
       } else {
-        params[params.length] = num;
         if (params.length < questions.length) {
           output.write(questions[params.length]);
         } else {
